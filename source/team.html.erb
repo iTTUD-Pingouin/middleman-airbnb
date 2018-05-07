@@ -1,11 +1,14 @@
 
 <div class="wrapper-grey">
+
+  <h1 class="text-center">Template created par la Roquette <%= image_tag "rocket.png", class: "img-emoji" %>
+    <%= image_tag "emoji-sunglasses.png", class: "img-emoji" %></h1>
   <div class="pictures-container">
     <ul class="list-inline text-center">
-      <% ["ssaunier", "iTTUD-Pingouin"].each do |gh_username| %>
+      <% data.users.each do |user| %>
         <li>
-          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle img-md" %>
-          <h3><%= gh_username.capitalize %></h3>
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle img-md" %>
+          <h3><%= user.name.capitalize %></h3>
         </li>
       <% end %>
     </ul>

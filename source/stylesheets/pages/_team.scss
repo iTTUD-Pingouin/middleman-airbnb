@@ -2,6 +2,11 @@
   width: 300px;
 }
 
+.img-emoji {
+  width: 30px;
+  padding-bottom: 5px;
+}
+
 ul > li > h3 {
   font-size: 16px;
 }
@@ -10,6 +15,10 @@ ul > li > h3 {
   background-color: $lightgrey;
   height: calc(300px);
   position: relative;
+  h1 {
+    font-size: 32px;
+    padding-top: 60px;
+  }
 }
 
 
