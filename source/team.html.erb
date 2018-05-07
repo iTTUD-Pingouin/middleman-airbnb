@@ -1,0 +1,17 @@
+
+<div class="wrapper-grey">
+  <div class="pictures-container">
+    <ul class="list-inline text-center">
+      <% ["ssaunier", "iTTUD-Pingouin"].each do |gh_username| %>
+        <li>
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle img-md" %>
+          <h3><%= gh_username.capitalize %></h3>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
+
+<div class="wrapper-white">
+</div>
+

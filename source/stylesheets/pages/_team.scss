@@ -1,0 +1,32 @@
+.img-md {
+  width: 300px;
+}
+
+ul > li > h3 {
+  font-size: 16px;
+}
+
+.wrapper-grey {
+  background-color: $lightgrey;
+  height: calc(300px);
+  position: relative;
+}
+
+
+.wrapper-white {
+  background-color: white;
+  height: calc(100vh - 300px - 70px - 100px);
+}
+
+// .wrapper-grey > ul  {
+
+
+// }
+
+.pictures-container {
+  position: absolute;
+  width: 100%;
+  top: 150px;
+  display: flex;
+  justify-content: center;
+}
